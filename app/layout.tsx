@@ -9,9 +9,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Novaa Tech Admin",
-  description: "Admin Panel for Novaa Tech",
-};
+  title: "Novaa Tech - Modern Software Solutions",
+  description: "Build the future with our innovative software development and custom solutions",
+  // No need to specify icons - Next.js will auto-detect app/icon.png
+}
 
 export default function RootLayout({
   children,
